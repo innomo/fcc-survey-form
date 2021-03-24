@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
+body {
+  margin: 0;
+  color: #5A6074;
+  font-family: "Raleway", sans-serif;
+  background: #fff;
+}
+
+#container {
+  
+}
+
+#survey-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  // background: #ccc;
+  
+  #name, #email, #number, #dropdown, textarea, button {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    border: 2px solid #9CA3AF;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  input:focus{
+    border: 2px solid #F3F4F6;
+    outline: rgba(99, 102, 241, 1);
+  }
+  
+  .form-group, #number {
+    margin-bottom: 15px;
+    width: 95%;
+  }
+  
+  label{
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
+  input, select {
+    padding: 8px;
+  }
+  
+  .choose {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .radios:nth-child(2){
+    margin-bottom: 50px;
+  }
+  
+  select {
+    padding-right: -20px;
+    width: 100%;
+    outline: fgfgf;
+  }
+}
+
+#heading {
+  text-align: center;
+}
+
+#submit {
+  display: block;
+  padding: 8px 10px;
+  cursor: ponter;
+  font-weight: 600;
+  color: #fff;
+  width: 100%;
+  
+  background: #6366F1;
+  border: none;
+  outline: none;
+}
+

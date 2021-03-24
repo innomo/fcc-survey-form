@@ -1,0 +1,73 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<div id="container">
+  
+<div id="heading">
+  <h1 id="title">
+  Bluemap Customer Feedback
+</h1>
+<p id="description">Thank you for using our Online shop</p>
+</div>
+
+<form action="" id="survey-form">
+  <div class="form-group">
+    <label for="name" id="name-label">Name</label>
+  <input type="text" id="name" placeholder="Name" required>
+  </div>
+ <div class="form-group">
+    <label for="email" id="email-label">Email</label>
+  <input type="email" id="email" placeholder="Email" required>
+ </div>
+  <div id="form-group">
+    <label for="number" id="number-label">Age</label>
+  <input type="number" id="number" placeholder="Number"  min="18" max="100" required>
+  </div>
+  <div class="form-group">
+    <label for="visit">Select if likely to visit our online shop again? </label>
+    <select id="dropdown">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+      <option value="maybe">Maybe</option>
+    </select>
+  </div>
+  <div class="form-group radios">
+     <label class="choose">Please choose your working option:</label>
+  <div class="form-g">
+    <input type="radio" id="employed" name="emp" value="employed">
+  <label for="employed">Employed</label>
+  </div> 
+ <div class="form-g">
+    <input type="radio" id="unemployed" name="emp" value="unemployed">
+  <label for="female">Unemployed</label>
+ </div>
+  <div class="form-g">
+    <input type="radio" id="not-looking" name="emp" value="not-looking">
+  <label for="not-looking">Not Looking</label>
+  </div>
+
+  </div>
+  <div class="form-groups">
+  <label for="" class="choose">What did you not like about our website?</label>
+  <div class="form-">
+    <input type="checkbox" id="slow" name="slow" value="slow">
+    <label for="slow">Website too slow</label>
+  </div>
+  <div class="form-">
+    <input type="checkbox" id="products" name="products" value="products">
+    <label for="products">Not enough products</label>
+  </div>
+  <div class="form-group">
+    <input type="checkbox" id="register" name="register" value="register">
+    <label for="register">Registration process to long</label>
+  </div>
+  </div>
+  <div class="form-">
+    <label for="comments">Please leave additional comments</label>
+    <textarea id="comments" name="comments" rows="4" cols="50">
+     
+    </textarea>
+     <button id="submit">Submit</button>
+  </div>
+</form>
+
+</div>
